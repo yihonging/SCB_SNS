@@ -1,0 +1,67 @@
+{
+    "name": "GameController",
+    "maps": [
+        {
+            "name": "player",
+            "id": "70a6092f-1b06-4cd8-bb3e-bef0fa230381",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Button",
+                    "id": "23053ee7-1611-4d95-a8b4-231384243596",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "3eaf45f3-2198-4535-9558-d2ef7bfe6f1f",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d480a27e-0079-4af5-ab56-5188d3519971",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "05742f02-b31e-4e23-a3de-354a59a6a46b",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f282fed2-cf0f-469b-b2e6-0b6c413553c5",
+                    "path": "<Keyboard>/j",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
